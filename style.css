@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Inter, San-Serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 80px;
+    
+
+    & nav {
+        display: flex;
+        gap: 50px;
+        font-size: 20px;
+        padding: 55px 22px;
+        font-weight: 400;
+        align-items: center;
+        
+
+        & .active {
+            color: black;
+            font-weight: 600;
+            text-transform: bold;
+        }
+
+         & a {color: hsl(220, 9%, 46%);
+
+         }
+
+         & a:last-child {
+            padding: 13px 22px 13px 22px;
+            border-radius: 8px;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+         }
+    }
+
+}
+    main {
+
+    .home {
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-between;
+        padding:55px 80px; 
+        margin-bottom: 297.5px;
+        
+         
+        & h1 {
+            font-weight: 700;
+            font-size: 70px;
+            justify-content: center;
+            text-align: center;
+            width: 680px;
+            height: 240px;
+            text-align: left;
+    }
+
+        & p {
+            width: 620px;
+            height: 192px;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 48px;
+            color: #1F1F39B2;
+            margin-top: 30px;
+        }
+
+         & a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                padding: 10.87px;
+                background-color: #1F1F39;
+                width: 246.49px;
+                height: 66px;
+                border-radius: 10.87px;
+                font-size: 24.24px;
+                font-weight: 700;
+                text-transform: bold;
+                margin-top: 48px;
+            }
+
+
+       & img{
+        display: flex;
+        align-items: center;
+        height: 269.3px;
+        width: 417.27px;
+       }
+
+
+
+    }
+
+}
+
+.projects {
+
+    & h2 {
+        font-size: 40px;
+        width: 1019px;
+        height: 120px;
+        font-weight: 500;
+        margin:90px;
+        line-height: 60px;
+        margin-bottom: 200px;
+    }
+
+    & .cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 368px;
+        margin-top: 300px;
+        margin: 0px 70px;
+        
+    }
+
+    & p{
+        margin-top: 50px ;
+        width: 416px;
+        height: 96px;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 48px;
+    }
+
+}
+
+.about {
+    display: flex;
+    margin-top: 150px;
+    background-color: black;
+    color: white;
+    width: 1440px;
+    height: 719.13px;
+    padding: 120px;
+
+    & h2 {
+        width: 200px;
+        height: 27px;
+        font-size: 22px;
+        font-weight: 400;
+        margin-bottom: 29px;
+
+    }
+
+    & p {
+        width: 1019px;
+        height: 180px;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 60px;
+    }
+}
+
+.Tertiarybutton2{
+    width: 246.49px;
+    height: 66px;
+    background-color: white;
+    border-radius:10.87px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 73px;
+
+    & a{
+        color: black;
+        font-weight: 700;
+        font-size: 24.24px;
+        text-transform: bold;
+    }
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 55.73px 120px;
+    border-top: 1px solid #4f4f4f;
+
+
+
+    & p{
+        color: white;
+        opacity: 0.5;
+        height: 34px;
+        width: 413px;
+        font-size: 18px;
+        font-weight: 400;
+}
+}
